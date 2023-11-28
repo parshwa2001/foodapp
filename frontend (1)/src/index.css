@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header styling */
+.header_div {
+    box-shadow: 1px 1px 10px #22222280;
+    padding: 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+}
+
+.logo_content {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.links>a {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #222;
+    font: 500 1rem 'Raleway', sans-serif;
+}
+
+.links>a:focus {
+    font: 700 1rem 'Raleway', sans-serif;
+}
+
+/* common classes */
+.common_back {
+    background: #222 !important;
+    color: #fff;
+}
+
+.common_left_div {
+    background: #222;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common_right_div {
+    height: 100vh;
+    width: 50%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.logo_width {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.common_flexing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.common_input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background: #fff;
+}
+
+.border_btn {
+    border: 2px solid #222;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font: 600 1rem 'Raleway', sans-serif;
+}
+
+.border_btn:hover {
+    background: #fff;
+    color: #222 !important;
+    transition: all 0.5s ease;
+}
+
+.border_btn2 {
+    border: 2px solid #222;
+    padding: 0rem 2rem;
+    cursor: pointer;
+    font: 600 1rem 'Raleway', sans-serif;
+    background: #fff;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.border_btn2:hover {
+    border: 2px solid #222 !important;
+    background: #222;
+    color: #fff !important;
+    transition: all 0.5s ease;
+}
+
+.big_font {
+    font: 800 1.2rem 'Raleway', sans-serif;
+}
+
+.small_font {
+    font: 600 1rem 'Raleway', sans-serif;
+}
+
+.medium_font {
+    font: 600 1.2rem 'Raleway', sans-serif;
+}
+
+.title_font {
+    font: 600 2rem 'Raleway', sans-serif;
+}
+
+/* Auth section styling */
+.login_content {
+    background: #fff;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Home section styling */
+.main_background {
+    background: url('./assets/food2.jpg');
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thai_bold_font {
+    font: 800 4rem 'Raleway', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #dfdfdf,
+        -2px 5px 1px #cbcbcb,
+        -4px 8px 1px #979797,
+        -6px 11px 1px #a2a2a2,
+        -8px 14px 1px #aeaeae,
+        -10px 17px 1px #b5b5b5,
+        -12px 20px 1px #bebebe,
+        -14px 23px 1px #cecece,
+        -16px 26px 1px #dbdbdb,
+        -18px 29px 1px #dfdfdf;
+}
+
+.food_card {
+    box-shadow: 1px 1px 10px #22222280;
+    background: #fff;
+    padding-bottom: 0.5rem;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.food_img {
+    background: url('./assets/3.jpeg');
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.cart_btn {
+    background: #222;
+    color: #fff;
+}
+
+/* cart styling */
+.cart_card {
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cart_img_height {
+    width: 150px;
+    height: 130px !important;
+}
+
+.shop_cart {
+    padding: 0.5rem;
+    margin-bottom: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+}
+
+.del_btn:hover {
+    color: #FE4343 !important;
+    border-color: red !important;
+}
+
+/* Modal styling */
+.service_btn {
+    padding: 1rem 2.5rem;
+    text-align: center;
+    background: #9797978a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.service_btn2 {
+    padding: 1rem 2.5rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.address_card {
+    padding: 0.5rem;
+    background: #222;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Payment styling */
+.payment_wrapper {
+    background-color: #f6f6f6;
+}
+
+.payment_main_box {
+    height: calc(100vh - 156px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.payment_content_box {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 8px;
+    margin: 20px 0;
+    min-height: 300px;
+}
+
+.payment_btn {
+    background-color: #0222;
+    border-color: #0c4331;
+    font-size: 15px;
+    min-width: 100px;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+}
+
+.payment_content>h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.payment_content>p {
+    font-family: "Nunito", sans-serif;
+    color: #575757;
+}
+
+.payment_content_inner {
+    margin: 20px;
+    width: 100%;
+    padding: 25px;
+    background-color: #f6f6f6;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.payment_icon>svg {
+    width: 80px;
+    height: 80px;
+    fill: #14513e;
+}
+
+.payment_failed_icon>svg {
+    width: 80px;
+    height: 80px;
+    fill: #ef513a !important;
+}
+
+.payment_failed_content>h6 {
+    color: #ef513a;
+}
+
+.payment_failed_btn {
+    background-color: #ef513a !important;
+    border-color: #ef513a !important;
+    min-width: 130px !important;
+}
+
+/* footer */
+.footer_div {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 10px #222;
+    background: #fff;
+}
+
+.navbar-hamburger {
+    display: none;
+}
+
+@keyframes navlinkanimation {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .common_left_div {
+        display: none;
+    }
+
+    .common_right_div {
+        width: 100%;
+    }
+
+    .navbar-hamburger {
+        display: block;
+    }
+
+    .links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 135%;
+        padding: 2%;
+        box-sizing: border-box;
+        width: 90vw;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0px 0px 15px 0px gray;
+        left: 0;
+        animation: navlinkanimation 0.6s;
+        z-index: 10;
+    }
+
+    .links a {
+        margin: 3%;
+        text-align: center;
+    }
+
+    .shop_cart {
+        flex-direction: column;
+    }
+
+    .shop_cart div {
+        margin: auto;
+        margin: 5px auto;
+    }
+
+    .service_btn , .service_btn2{
+        padding: 1rem ;
+    }
+}
+
+@media screen and (max-width: 768px) {}
